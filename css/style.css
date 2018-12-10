@@ -16,9 +16,15 @@ header .white-head {
 
 }
 
-header .white-head .content {
+header .white-head .content h2 {
     padding-top: 30vh;
+    padding-left: 40px;
+    font-size: 2.4rem;
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: 400;
+
 }
 
 
@@ -201,7 +207,17 @@ li {
         font-size: 2.2rem;
         letter-spacing: 0.05rem;
     }
+  header .white-head .content h2 {
+    padding-top: 25vh;
+    padding-left: 0px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 400;
 
+
+}
     .about .photo-about {
     background-image: url(../images/michel-tisseyre.jpg);
     background-size: cover;
@@ -210,12 +226,3 @@ li {
     min-height: 70vh;
 }
 }
-
-
-
-
-
-
-
-
-
