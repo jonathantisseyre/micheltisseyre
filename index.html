@@ -100,7 +100,7 @@
         </div>
         <div class="container-fluid under-title"><h3 class="text-center"> EASA Part21J &amp; G, Audit, Technical assistance,<br> main companies:</h3></div>
 
-        <section class="main-comp container" id="main-comp-section">
+        <section class="main-comp container img-opac-1" id="main-comp-section">
 
             <div class="row">
 
@@ -119,7 +119,7 @@
         </section>
 
         <div class="container-fluid under-title mt-3"><h3 class="text-center"> EASA Part145 &amp; Part M, Audit, Technical assistance,<br> main companies:</h3></div>
-        <section class="main-comp container" id="main-comp-section">
+        <section class="main-comp container img-opac-2" id="main-comp-section">
 
             <div class="row">
 
@@ -138,28 +138,28 @@
 
         </section>
         <div class="container-fluid other-tasks pb-4 mt-5">
-                <h2 class="text-center pb-3 pt-3 ">Other tasks :</h2>
-                <div class="row text-justify mb-4">
-                    <div class="col-md-6 col-12">
-                        <ul>
-                            <li>Physical &amp; records inspections on B737</li>
-                            <li>EASA Part21J &amp; G training courses for Airlines, OEM &amp; Aircraft Manufacturers</li>
-                            <li>EUCCAP : initial airworthiness needs assessment for CAAC</li>
-                            <li>EASA Part 145, Part M &amp; Auditors training course for Airlines, repair stations and NationalAviation Authorities</li>
-                        </ul>
-                    </div>
-                    <div clasS="col-md-6 col-12">
-                        <ul>
-                            <li>FRA 21, FRA M, FRA 145 Audit, Technical assistance &amp; Training courses</li>
-                            <li>Quality Management</li>
-                            <li>Equatorial Congo Airlines (operated by PRIVATAIR) : <ul><li>Quality Manager part time 2011-2013</li></ul></li>
-                        </ul>
-                    </div>
+            <h2 class="text-center pb-3 pt-3 ">Other tasks :</h2>
+            <div class="row text-justify mb-4">
+                <div class="col-md-6 col-12">
+                    <ul>
+                        <li>Physical &amp; records inspections on B737</li>
+                        <li>EASA Part21J &amp; G training courses for Airlines, OEM &amp; Aircraft Manufacturers</li>
+                        <li>EUCCAP : initial airworthiness needs assessment for CAAC</li>
+                        <li>EASA Part 145, Part M &amp; Auditors training course for Airlines, repair stations and NationalAviation Authorities</li>
+                    </ul>
+                </div>
+                <div clasS="col-md-6 col-12">
+                    <ul>
+                        <li>FRA 21, FRA M, FRA 145 Audit, Technical assistance &amp; Training courses</li>
+                        <li>Quality Management</li>
+                        <li>Equatorial Congo Airlines (operated by PRIVATAIR) : <ul><li>Quality Manager part time 2011-2013</li></ul></li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
 
-        <!-- ===============  Main positions ========== -->
+        <!-- ===============  Professional Experiences ========== -->
 
         <section class="jobs container-fluid pb-5" id="main-pos">
             <div class="col-12 text-center title-jobs"><h2>Professional Experiences</h2></div><hr>
@@ -431,7 +431,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-         <script>
+        <script>
             $(function(){
                 $('nav a[href^="#"]').click(function(){
                     var the_id = $(this).attr("href");
@@ -449,6 +449,59 @@
                 })
             });   </script>
 
+        <!-- script scroll opac -->
+        <script>
+
+
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 120){
+                    $('.about').addClass('vignets');}
+
+
+            });
+
+
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 1000){
+                    $('.title-freelance').addClass('vignets');}
+
+
+            });
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 1500){
+                    $('.img-opac-1').addClass('vignets');}
+
+
+            });
+
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 2000){
+                    $('.img-opac-2').addClass('vignets');}
+
+
+            });
+
+
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 2600){
+                    $('.other-tasks').addClass('vignets');}
+
+
+            });
+
+            $(window).scroll(function(){
+                let sc = $(this).scrollTop();
+                if(sc > 3000){
+                    $('.jobs').addClass('vignets');}
+
+
+            });
+        </script>
 
     </body>
 </html>
