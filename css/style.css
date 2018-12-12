@@ -1,454 +1,228 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway" rel="stylesheet">
-
-        <!-- Font Awesome -->
-        <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-        <link rel="stylesheet" href="css/style.css">
-
-        <title>Michel Tisseyre</title>
-    </head>
-
-
-    <body>
-
-        <!--       ================== Navbar =========== -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#up"><img src="index.html" alt=""> Michel Tisseyre Consulting</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#free">Free Lance</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#main-pos">Positions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-
-        <!-- ===============  /Navbar ========== -->
-
-        <header class="container-fluid" id="home">
-            <div class="row">
-                <div class="col-12 col-md-8 white-head">
-                    <div class="content">
-                        <h2>Expert in engineering, audit <br>&amp; training course</h2><hr>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4"></div>
-            </div>
-        </header>
-
-
-        <!-- ===============  ABOUT ========== -->
-        <section class="about container-fluid" id="about">
-
-            <div class="row">
-                <div class="col-12 col-md-6 photo-about"></div>
-                <div class="col-12 col-md-6 txt-about">
-                    <h2 class="text-center">About me</h2>
-                    <p class=" lead">eu cohaerescant nulla varias instituendarum commodo se eruditionem litteris
-                        excepteur quid magna mentitum consequat summis summis labore offendit
-                        philosophari occaecat consectetur multos duis sint eiusmod</p>
-                    <p class=" lead">commodo quibusdam labore transferrem sed consectetur de culpa ne cupidatat
-                        nescius quae fugiat anim quis praetermissum varias aliquip quis reprehenderit
-                        iis cillum offendit id consectetur aut eruditionem illustriora si occaecat
-                        iudicem quibusdam a eiusmod exquisitaque imitarentur ullamco an tempor duis
-                        senserit ex magna ut noster sunt ea id quibusdam mandaremus</p>
-                </div>
-            </div>
-        </section>
-        <!-- ===============  FREELANCE ========== -->
-
-        <div class="col-12 text-center title-freelance" id="free" >
-
-            <h2 style="padding-top: 30px;">Free lance Company<br> Tisseyre Consulting since <span style="font-weight: bold">January 2009 </span></h2>
-            <hr>
-            <p class=" para-main-tasks">Main tasks : Enginneering, audit, training course</p>
-            <ul><li>AS/EN 9100</li>
-                <li>AS/EN 9110</li>
-                <li>AS/EN 9120</li>
-            </ul>
-
-
-
-
-        </div>
-        <div class="container-fluid under-title"><h3 class="text-center"> EASA Part21J &amp; G, Audit, Technical assistance,<br> main companies:</h3></div>
-
-        <section class="main-comp container" id="main-comp-section">
-
-            <div class="row">
-
-                <div class="col-6 col-md-3"><img src="./images/comac.png" alt="comac" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/safran.jpg" alt="safran" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/atr.jpg" alt="atr" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/eurocopter.jpg" alt="eurocopter" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/nhi.png" alt="nhi" class="img-fluid"></div>
-
-                <div class="col-6 col-md-3"><img src="./images/turkish-airlines.png" alt="turkish airlines" class="img-fluid"></div>
-
-                <div class="col-6 col-md-3"><img src="./images/rockwell-collins.jpg" alt="rockwell collins" class="img-fluid"></div>
-
-            </div>
-
-        </section>
-
-        <div class="container-fluid under-title mt-3"><h3 class="text-center"> EASA Part145 &amp; Part M, Audit, Technical assistance,<br> main companies:</h3></div>
-        <section class="main-comp container" id="main-comp-section">
-
-            <div class="row">
-
-                <div class="col-6 col-md-3"><img src="./images/lion-air.png" alt="Lion air" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/alitalia.png" alt="Alitalia" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/ryanair.png" alt="Ryan air" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/jet-airways.png" alt="Jet Airways" class="img-fluid"></div>
-                <div class="col-6 col-md-3"><img src="./images/zodiac-aerospace.png" alt="Zodiac Aerospace" class="img-fluid"></div>
-
-                <div class="col-6 col-md-3"><img src="./images/sabena-technics.jpg" alt="Sabena Technics" class="img-fluid"></div>
-                <div class="col-md-3"><img src="./images/AVDEF.jpg" alt="AVDEF" class="img-fluid"></div>
-
-
-            </div>
-
-
-        </section>
-        <div class="container-fluid other-tasks pb-4 mt-5">
-                <h2 class="text-center pb-3 pt-3 ">Other tasks :</h2>
-                <div class="row text-justify mb-4">
-                    <div class="col-md-6 col-12">
-                        <ul>
-                            <li>Physical &amp; records inspections on B737</li>
-                            <li>EASA Part21J &amp; G training courses for Airlines, OEM &amp; Aircraft Manufacturers</li>
-                            <li>EUCCAP : initial airworthiness needs assessment for CAAC</li>
-                            <li>EASA Part 145, Part M &amp; Auditors training course for Airlines, repair stations and NationalAviation Authorities</li>
-                        </ul>
-                    </div>
-                    <div clasS="col-md-6 col-12">
-                        <ul>
-                            <li>FRA 21, FRA M, FRA 145 Audit, Technical assistance &amp; Training courses</li>
-                            <li>Quality Management</li>
-                            <li>Equatorial Congo Airlines (operated by PRIVATAIR) : <ul><li>Quality Manager part time 2011-2013</li></ul></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-        <!-- ===============  Main positions ========== -->
-
-        <section class="jobs container-fluid pb-5" id="main-pos">
-            <div class="col-12 text-center title-jobs"><h2>Main positions</h2></div><hr>
-
-            <div class="row lign-1 mb-2">
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Airworthiness Senior Advisor – International Aviation Safety, for DGCA Indonesia at Jakarta (Indonesia)</h5><hr>
-                            <p class="card-text">Since February 2017</p>
-                            <p class="card-text">Main tasks :</p>
-                            <ul>
-                                <li>Safety oversight assistance on Airworthiness</li>
-                                <li>Support and dry run for ICVM preparation</li>
-                                <li>Airworthiness inspectors coaching</li>
-                                <li>DGCA Airworthiness oversight process audits and reviews</li>
-                                <li>Support to EU safety assessment visit preparation, follow-up of corrective actions</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Chief Technical Officer SUNAERO ASIA (part time – 50%) at Johor Bahru (Malaysia)</h5><hr>
-                            <p class="card-text">Since November 2016</p>
-                            <p class="card-text">Main tasks :</p>
-                            <ul>
-                                <li>Head of Airworthiness of EASA DOA 21J.640</li>
-                                <li>Quality Manager of EASA Part 145 organisation n°EASA.145.0818</li>
-                                <li>Operations management</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">CEO/Owner – IB COMPOSITES at Rivesaltes (France) </h5><hr>
-                            <p class="card-text">January 2009 – January 2012</p>
-                            <p class="card-text">Main tasks :</p>
-                            <ul>
-                                <li>Engineering and manufacturing of parts/components in Composites Materials</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Senior Engineer – Project Manager Bureau Veritas</h5><hr>
-                            <p class="card-text">January 2007- December 2008</p>
-                            <p class="card-text">Main tasks : </p>
-                            <ul>
-                                <li>Engineering, training course, AuditRegulations &amp; Standards : EASA Part21, Part145, Part M, CS-25, CS-E, FRA21, FRA145, FRA M, ICAO, ISO9001, EN9100…</li>
-                                <li>EASA Part21, Part145, Part 66… technical assistance &amp; training courses</li>
-                                <li>EASA Part145 auditors training course</li>
-                                <li>Audit Part145</li>
-                                <li>Audit Part M</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Free lance Company MT Engineering. <br>N° SIRET 44858665100011</h5><hr>
-                            <p class="card-text">January 2003- December 2006</p>
-                            <p class="card-text">Main tasks :</p>
-                            <ul>
-                                <li>EASA Part21, Part145, Part 66… technical assistance &amp; training courses</li>
-                                <li>EASA Part145 auditors training course</li>
-                                <li>Audit Part145</li>
-                                <li>Audit Part M</li>
-                                <li>One year Inspector G.S.A.C. (French DGAC delegation), acting of behalf EASA in the frame of :
-                                    <ul>
-                                        <li>EASA Part21G AIRBUS Approval : carrying out Audits</li>
-                                        <li>Continuing Airworthiness of Type Design : participating to EASA Airworthiness Directive redaction</li>
-                                    </ul>
-                                </li>
-                                <li>ISO9001 certification</li>
-                                <li>More than one year Qualification Manager in military program for Aicraft Modification (CASA CN235 for Turkish Government). Regulation standards used: FAR25/EASA part25, FAR21/EASA part21, MIL-STD, DEF-STAN, NATO...</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Deputy Technical Manager EAS Industrie</h5><hr>
-                            <p class="card-text">February 2000 - Octobre 2002</p>
-                            <p class="card-text">Total team  : 130 personsAeronautical maintenance base JAR 145 certified </p>
-                            <ul>
-                                <li>Experience on Heavy maintenance on BOEING 727 &amp; 737, MD80 (A, B, C, D Checks)</li>
-                                <li>Additional Works : Emergency (Fuel leak, system failure, hard landing...), Structural Repairsor modification, Electrical modification (TCAS...), Cabin accomodations (Refurbishing, VIP...)...</li>
-                                <li>Outstanding actions :
-                                    <ul>
-                                        <li>Establishment of a system for human resources optimization
-                                            <ul><li>Estimate cost saving : up to 400 k€ per year</li></ul>
-                                        </li>
-                                        <li>Establishment of a personnel notation system</li>
-                                        <li>Modernization and optimization of tools &amp; parts stores</li>
-
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 mb-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">General Director, Joint company NDT EXPERT</h5><hr>
-                            <p class="card-text">Novembre 1997 - January 2000</p>
-
-                            <ul>
-                                <li>Founder members : Aerospatiale, Sogerma, Bureau Veritas</li>
-                                <li>Total team : 16 persons</li>
-                                <li>Activities : Expertises &amp; training courses in non destructive testing (X Ray, ultrasonic, eddy currents,...)</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ===============  MORE POSITIONS NAV ========== -->
-        <h2 class="text-center more" style="margin-top: 10vh" id="projet">More positions </h2><hr>
-        <div class="container nav-postions">
-            <div class="row mb-4">
-
-                <div class="col-md-4 col-12">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Feb 96 - Oct 97 </a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Jul 95 - Feb 96</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-pourquoi" role="tab" aria-controls="v-pills-pourquoi" aria-selected="false">Jul 91 - Jul 95</a>
-                        <a class="nav-link" id="v-pills-equipe-tab" data-toggle="pill" href="#v-pills-equipe" role="tab" aria-controls="v-pills-equipe" aria-selected="false">May 90 - Jun 91</a>
-                        <a class="nav-link" id="v-pills-88-90-tab" data-toggle="pill" href="#v-pills-88-90" role="tab" aria-controls="v-pills-88-90" aria-selected="false">Jan 88 - Apr 90</a>
-                        <a class="nav-link" id="v-pills-93-96-tab" data-toggle="pill" href="#v-pills-93-96" role="tab" aria-controls="v-pills-93-96" aria-selected="false">1993 - 1996</a>
-
-                    </div>
-                </div>
-                <div class="col-md-8 col-12">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                            <div class="col-sm-12 mb-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Manager of Materials &amp; Process Laboratory, AEROSPATIALE at Saint Eloi plant (Toulouse), A/PAQ/TO/LM</h5><hr>
-
-                                        <p class="card-text">Main activities :</p>
-                                        <ul>
-                                            <li>Manufacturing process control</li>
-                                            <li>Tear down of full scale fatigue test frames A340 (nose fuselage, pylons, frames 15&amps;21...) managing a team of 15 persons (NDT inspectors &amps;  sheet metal workers)</li>
-                                            <li>Responsible of CEAT detachment team</li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">  <div class="col-sm-12 mb-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Quality Engineer, AEROSPATIALE at Saint Martin du Touch plant (Toulouse).A/PAQ/QM/OI (Quality management)</h5><hr>
-
-                                    <p class="card-text">Main activities :</p>
-                                    <ul>
-                                        <li>Control of manufacturing process, (managing working groups, using methods like FMEC analysis ...)</li>
-                                        <li>Metrology</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-pourquoi" role="tabpanel" aria-labelledby="v-pills-pourquoi-tab"> <div class="col-sm-12 mb-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Studies Engineer, AEROSPATIALE at Saint Martin du Touch plant (Toulouse).A/BTE/EG/ST (Structural calculations)</h5><hr>
-                                    <p class="card-text">Knowledge :</p>
-
-                                    <ul>
-                                        <li>Failure mechanics</li>
-                                        <li>Materials sciences</li>
-                                        <li>Probabilistics Mathematics</li>
-                                        <li>Numerical calculations on CDC, CRAY, IBM (370 et PC), Mac Intosh...</li>
-                                        <li>Participation to :
-                                            <ul>
-                                                <li>A321 Certification Program</li>
-                                                <li>A320 MRB Revision</li>
-                                            </ul>
-
-                                        </li>
-                                        <li>Research of profitability and reliability program of DTMS (Damage Tolerance Monitoring System).Development of reliability program for FLP A320/A321 (Fleet Leader Program), and for parametric study of A300</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            </div></div>
-
-                        <div class="tab-pane fade" id="v-pills-equipe" role="tabpanel" aria-labelledby="v-pills-equipe-tab">
-                            <div class="col-sm-12 mb-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">System Engineer, AEROSPATIALE at Saint Martin du Touch plant (Toulouse).A/DI/T/S</h5><hr>
-
-                                        <p class="card-text">Sofware installation on IBM computer (SGBD)</p>
-
-                                    </div>
-                                </div>
-                            </div></div>
-                        <div class="tab-pane fade" id="v-pills-88-90" role="tabpanel" aria-labelledby="v-pills-88-90-tab">
-                            <div class="col-sm-12 mb-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">System Engineer, INFORSUD at Bozouls (Aveyron, France)</h5><hr>
-
-                                        <p class="card-text">Good experience on IBM computer (MVS/XA)</p>
-                                        <p class="card-text">Knowledge on smart cards.</p>
-
-                                    </div>
-                                </div>
-                            </div></div>
-                        <div class="tab-pane fade" id="v-pills-93-96" role="tabpanel" aria-labelledby="v-pills-93-96-tab">
-                            <div class="col-sm-12 mb-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Teacher in General Mechanics “Ecole Nationale Supérieure d’Ingénieurs en Construction Aéronautique”,  first year</h5>
-
-
-                                    </div>
-                                </div>
-                            </div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ===============  CONTACT ========== -->
-
-        <div class="container-fluid" id="contact">
-            <div class="row">
-                <div class="col-12  align-items-center contact">
-                    <div class="rect-black offset-md-2 text-center col-md-8">
-                        <h3>CONTACT</h3>
-                        <p><i class="fab fa-whatsapp"></i> : +33 (0)6 25 26 23 64</p>
-                        <p><i class="fas fa-envelope"></i> : tisseyre.consulting@gmail.com</p>
-                        <p><i class="fab fa-linkedin-in"></i> : Tisseyre Michel</p>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-         <script>
-            $(function(){
-                $('nav a[href^="#"]').click(function(){
-                    var the_id = $(this).attr("href");
-                    if (the_id === '#') {
-                        return;
-                    }
-                    $('html, body').animate({
-                        scrollTop:$(the_id).offset().top}, 'slow');
-                    return false;
-                });
-            })
-            $(document).ready(function(){
-                $('[data-toggle="popover"]').popover({
-                    container: 'footer'
-                })
-            });   </script>
-
-
-    </body>
-</html>
+header {
+    background-image: url(../images/in-flight-over-mountains.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header .white-head {
+    background-color: rgba(255,255,255,0.5);
+    min-height: 90vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+
+
+}
+
+header .white-head .content h2 {
+    padding-top: 30vh;
+    padding-left: 40px;
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: 400;
+
+}
+
+
+
+/*######## ABOUT #######*/
+.about {
+    min-height: 70vh;
+    padding-top: 100px;
+    padding-bottom:100px;
+
+}
+
+.about-me {
+    margin-left: 5vh;
+}
+.about .txt-about {
+    background-color: #f5f5f5;
+
+}
+.about .txt-about h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.about .photo-about {
+    background-image: url(../images/michel-tisseyre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+/*######## main companies #######*/
+.under-title {
+    background-color: #eae8e8;
+    margin-top: -16px;
+}
+
+.under-title h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 31px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 1.3;
+    color: #47525d;
+}
+
+.title-freelance h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2rem;
+    color: #47525d;
+    padding-bottom: 5vh;
+
+
+}
+i {
+    font-size: 0.2rem;
+    color: blue;
+}
+.title-freelance {
+    background-color: #f5f5f5;
+}
+
+.title-freelance p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2rem;
+}
+
+
+.title-freelance li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.title-freelance ul {
+    padding-bottom: 5vh;
+}
+
+.other-tasks {
+    background-color: #f5f5f5;
+}
+
+/*######## JOBS #######*/
+
+.jobs {
+    min-height: 70vh;
+    background-color: #eae8e8;
+}
+
+.title-jobs h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2rem;
+    color: #47525d;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+
+}
+
+.card .card-title{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1rem;
+}
+
+.motiv {
+    padding-bottom: 30px;
+}
+
+.more {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+
+
+/*######## contact-section #######*/
+
+.contact {
+    background-image: url(../images/aero-consulting-tisseyre-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    background-attachment: fixed;
+}
+
+.contact .rect-black {
+    background-color: rgba(0,0,0,0.5);
+    min-height: 45vh;
+    top: 20vh;
+    font-weight: bold;
+}
+
+.contact .rect-black h3{
+    color: white;
+    padding-top: 2vh;
+    font-family: 'Raleway', sans-serif;
+}
+.rect-black p {
+    list-style: none;
+    color: white;
+    font-size: 1.6rem;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*######## RESPONSIVE #######*/
+
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .rect-black p {
+        font-size: 1.2rem;
+    }
+
+    header {
+        min-height: 80vh;
+    }
+
+    header .white-head {
+        min-height: 80vh;
+    }
+
+    header .white-head .content h2 {
+        padding-right: 5vh;
+        font-size: 2.2rem;
+        letter-spacing: 0.05rem;
+    }
+  header .white-head .content h2 {
+    padding-top: 25vh;
+    padding-left: 0px;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-weight: 400;
+
+
+}
+    .about .photo-about {
+    background-image: url(../images/michel-tisseyre.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+}
