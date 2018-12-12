@@ -124,7 +124,7 @@ i {
 .title-jobs h2 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: .2rem;
-    color: #47525d;
+
     padding-bottom: 5vh;
     padding-top: 5vh;
     font-weight: bold;
@@ -185,6 +185,44 @@ li {
     font-family: 'Raleway', sans-serif;
 }
 
+/*######## SCROLL OPAC #######*/
+
+.about {
+    opacity: 0;
+}
+
+.title-freelance {
+    opacity: 0;
+}
+
+.img-opac-1 {
+    opacity: 0;
+}
+
+.img-opac-2 {
+    opacity: 0;
+}
+
+.other-tasks {
+    opacity: 0;
+}
+
+.jobs {
+    opacity: 0;
+}
+
+
+.vignets {
+    opacity: 1;
+
+    -webkit-transition: opacity 2.3s ease-in-out;
+    -moz-transition: opacity 2.3s ease-in-out;
+    -o-transition: opacity 2.3s ease-in-out;
+    -ms-transition: opacity 2.3s ease-in-out;
+    transition: opacity 2.3s ease-in-out;
+}
+
+
 /*######## RESPONSIVE #######*/
 
 
@@ -208,22 +246,22 @@ li {
         font-size: 2.2rem;
         letter-spacing: 0.05rem;
     }
-  header .white-head .content h2 {
-    padding-top: 25vh;
-    padding-left: 0px;
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    line-height: 45px;
-    font-weight: 400;
+    header .white-head .content h2 {
+        padding-top: 25vh;
+        padding-left: 0px;
+        font-size: 2rem;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        line-height: 45px;
+        font-weight: 400;
 
 
-}
+    }
     .about .photo-about {
-    background-image: url(../images/michel-tisseyre.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    min-height: 70vh;
-}
+        background-image: url(../images/michel-tisseyre.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        min-height: 70vh;
+    }
 }
