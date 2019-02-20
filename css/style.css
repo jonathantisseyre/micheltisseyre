@@ -4,6 +4,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 }
 
 header .white-head {
@@ -11,23 +12,29 @@ header .white-head {
     min-height: 90vh;
     -webkit-clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+
+
 }
 
 header .white-head .content h2 {
     padding-top: 30vh;
     padding-left: 40px;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     line-height: 60px;
     font-weight: 400;
+
 }
+
+
 
 /*######## ABOUT #######*/
 .about {
     min-height: 70vh;
     padding-top: 100px;
     padding-bottom:100px;
+
 }
 
 .about-me {
@@ -38,8 +45,16 @@ header .white-head .content h2 {
 
 }
 .about .txt-about h2{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+
+
+}
+.about .txt-about p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 350;
+
+
 }
 
 .about .photo-about {
@@ -76,7 +91,6 @@ h3 {
     color: #47525d;
     padding-bottom: 5vh;
 
-
 }
 i {
     font-size: 0.2rem;
@@ -104,6 +118,10 @@ i {
 
 .other-tasks {
     background-color: #f5f5f5;
+}
+.other-tasks ul li{
+    padding: 7px;
+    font-size: 1.2rem;
 }
 
 /*######## EDUCATION #######*/
@@ -143,17 +161,11 @@ i {
 }
 
 .education .rect-black h3{
-    color: white;
+    color: black;
     padding-top: 2vh;
     font-family: 'Raleway', sans-serif;
 }
-.rect-black p {
-    list-style: none;
-    color: white;
-    font-size: 1.6rem;
-    padding: 20px;
-    font-family: 'Raleway', sans-serif;
-}
+
 /*######## JOBS #######*/
 
 .jobs {
@@ -284,6 +296,7 @@ li {
         padding-right: 5vh;
         font-size: 2.2rem;
         letter-spacing: 0.05rem;
+        color: red;
     }
     header .white-head .content h2 {
         padding-top: 25vh;
@@ -293,6 +306,7 @@ li {
         text-transform: uppercase;
         line-height: 45px;
         font-weight: 400;
+
 
 
     }
@@ -310,9 +324,9 @@ li {
     }
 
     .educ-list ul {
-        font-size: .8rem;
+        font-size: 0.8rem;
     }
-        .educ-list .li-educ {
+    .educ-list .li-educ {
     padding: 5px;
 }
 }
