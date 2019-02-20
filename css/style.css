@@ -295,17 +295,17 @@ li {
 
     header .white-head .content h2 {
         padding-right: 5vh;
-        font-size: 2.2rem;
+
         letter-spacing: 0.05rem;
-        color: red;
+
     }
     header .white-head .content h2 {
         padding-top: 25vh;
         padding-left: 0px;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
-        line-height: 45px;
+        line-height: 55px;
         font-weight: 400;
 
 
